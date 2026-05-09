@@ -1,25 +1,26 @@
 # ServletMiniProject
 servlet assignments and project using layered and MVC architecture
 <br>
-🗂 CRUD Operations
-Add new records
-View all records
-Update existing records
-Delete records
+🗂 CRUD Operations:
 <br>
-🧑‍💻 User Interface
-Simple and responsive UI using HTML, CSS, and Bootstrap
-Easy navigation using navbar
+Add new records<br>
+View all records<br>
+Update existing records<br>
+Delete records<br>
 <br>
-🛠️ Tech Stack
-Frontend: HTML, CSS, Bootstrap
-Backend: Java (Servlets, JDBC)
-Database: MySQL
-Connectivity: JDBC
-Server: Apache Tomcat
+🧑‍💻 User Interface<br>
+Simple and responsive UI using HTML, CSS, and Bootstrap<br>
+Easy navigation using navbar<br>
 <br>
-📚 Learning Outcomes
-Understanding MVC architecture
-Working with Servlets 
-Database integration using JDBC
+🛠️ Tech Stack<br>
+Frontend: HTML, CSS, Bootstrap<br>
+Backend: Java (Servlets, JDBC)<br>
+Database: MySQL<br>
+Connectivity: JDBC<br>
+Server: Apache Tomcat<br>
+<br>
+📚 Learning Outcomes<br>
+Understanding MVC architecture<br>
+Working with Servlets <br>
+Database integration using JDBC<br>
 
