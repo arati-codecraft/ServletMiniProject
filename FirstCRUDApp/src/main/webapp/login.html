@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Login Form</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-light">
+
+<div class="container mt-5">
+    <div class="col-md-4 offset-md-4 bg-dark text-white p-4 rounded">
+
+        <h3 class="text-center mb-4">Login</h3>
+
+        <!-- FORM START -->
+        <form action="loginvalidator" method="post">
+
+            <div class="mb-3">
+                <label>Username</label>
+                <input type="text" name="name" class="form-control" placeholder="Enter username" required>
+            </div>
+
+            <div class="mb-3">
+                <label>Password</label>
+                <input type="password" name="password" class="form-control" placeholder="Enter password" required>
+            </div>
+
+            <div class="text-center">
+                <input type="submit" name="s" value="Login" class="btn btn-primary w-100">
+            </div>
+
+        </form>
+        <!-- FORM END -->
+
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

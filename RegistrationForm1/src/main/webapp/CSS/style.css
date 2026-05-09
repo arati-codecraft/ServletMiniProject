@@ -1,0 +1,94 @@
+
+@charset "UTF-8";
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #36d1dc, #5b86e5);
+    margin: 0;
+    padding: 0;
+}
+
+/* Container box */
+.container {
+    width: 350px;
+    margin: 80px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
+}
+
+/* Heading */
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Labels */
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+/* Input fields */
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 15px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    transition: 0.3s;
+}
+
+/* Focus effect */
+input:focus {
+    border-color: #36d1dc;
+    outline: none;
+    box-shadow: 0 0 5px rgba(54, 209, 220, 0.5);
+}
+
+/* Button */
+button {
+    width: 100%;
+    padding: 10px;
+    background: #36d1dc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Button hover */
+button:hover {
+    background: #2bb3bd;
+}
+
+/* Login/Register link text */
+.register-link, .login-link {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+a {
+    color: #5b86e5;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Error message style (optional) */
+.error {
+    color: red;
+    text-align: center;
+}
+
+.success {
+    color: green;
+    text-align: center;
+}

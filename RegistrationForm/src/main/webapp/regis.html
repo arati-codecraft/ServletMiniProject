@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+</head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+<body>
+
+<h2>User Registration</h2>
+
+<form action="registrationform" method="post">
+    Name: <input type="text" name="name" required><br><br>
+    Email: <input type="email" name="email" required><br><br>
+    Password: <input type="password" name="password" required><br><br>
+    
+    Gender:
+    <input type="radio" name="gender" value="Male">Male
+    <input type="radio" name="gender" value="Female">Female<br><br>
+
+    Skills:
+    <input type="checkbox" name="skills" value="Java">Java
+    <input type="checkbox" name="skills" value="Python">Python
+    <input type="checkbox" name="skills" value="Web">Web<br><br>
+
+    <input type="submit" value="Register">
+</form>
+
+</body>
+</html>
